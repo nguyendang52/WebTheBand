@@ -1,0 +1,42 @@
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+div {
+  display: block;
+}
+#header {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #000 !important;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+.navbar-nav li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.padding {
+  padding: 12px 24px;
+}
+
+.dropdown-content {
+  display: none;
+}
+#slider {
+}
+
+#content {
+}
+
+#footer {
+}
