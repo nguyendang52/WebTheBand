@@ -8,29 +8,50 @@
     <link rel="stylesheet" href="/assets/css/reset.css" />
     <!-- Main CSS -->
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
     <div id="header">
       <div class="navbar">
         <ul class="navbar-nav">
-          <li><a href="#" class="padding">home</a></li>
-          <li><a href="#" class="padding">band</a></li>
-          <li><a href="#" class="padding">tour</a></li>
-          <li><a href="#" class="padding">contact</a></li>
+          <li><a href="#" class="padding-large">home</a></li>
+          <li><a href="#" class="padding-large">band</a></li>
+          <li><a href="#" class="padding-large">tour</a></li>
+          <li><a href="#" class="padding-large">contact</a></li>
           <li>
-            <a href="#" class="padding">more</a>
+            <a href="#" class="padding-large"
+              >more <i class="fa fa-caret-down"></i
+            ></a>
+
             <div class="dropdown-content">
-              <a href="#">Merchandise</a>
-              <a href="#">Extras</a>
-              <a href="#">Media</a>
+              <a href="#" class="padding-dropdown-item">Merchandise</a>
+              <a href="#" class="padding-dropdown-item">Extras</a>
+              <a href="#" class="padding-dropdown-item">Media</a>
             </div>
           </li>
         </ul>
+        <a href="#" class="padding-large btn-search right"
+          ><i class="fa fa-search"></i
+        ></a>
       </div>
     </div>
-    <div id="slider"></div>
+    <div id="slider">
+      <div class="center myslide">
+        <img src="assets/img/la.jpeg" />
+      </div>
+      <div class="center myslide">
+        <img src="assets/img/ny.jpeg" />
+      </div>
+      <div class="center myslide">
+        <img src="assets/img/chicago.jpeg" />
+      </div>
+    </div>
     <div id="content"></div>
     <div id="footer"></div>
+    <script src="index.js"></script>
   </body>
 </html>
